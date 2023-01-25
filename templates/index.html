@@ -1,43 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="static/style2.css">
-    <title>Linear Regression Model</title>
-</head>
-<body>
-    <h1>Bike Rentals Analysis Prediction Model</h1>
-    <form method="POST" action="/predict">
-        <label for="season">Season:</label>
-        <input type="text" id="season" name="season">
+  <head>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <title>Wine Quality Prediction</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Wine Quality Prediction</h1>
+      <form action="{{ url_for('predict') }}" method="post">
+      
+        <label for="residual sugar">Residual Sugar:</label>
+        <input type="text" id="residual sugar" name="residual sugar" required>
         <br>
-        <label for="yr">Year:</label>
-        <input type="text" id="yr" name="yr">
+        <label for="ph">pH:</label>
+        <input type="text" id="ph" name="ph" required>
         <br>
-        <label for="mnth">Month:</label>
-        <input type="text" id="mnth" name="mnth">
+        <label for="citric acid">citric acid:</label>
+        <input type="text" id="citric acid" name="citric acid" required>
         <br>
-        <label for="holiday">Holiday:</label>
-        <input type="text" id="holiday" name="holiday">
+        <label for="volatile acidity">volatile acidity:</label>
+        <input type="text" id="volatile acidity" name="volatile acidity" required>
         <br>
-        <label for="weekday">Weekday:</label>
-        <input type="text" id="weekday" name="weekday">
+        <label for="free sulfur dioxide">free sulfur dioxide:</label>
+        <input type="text" id="free sulfur dioxide" name="free sulfur dioxide" required>
         <br>
-        <label for="workingday">Workingday:</label>
-        <input type="text" id="workingday" name="workingday">
+        <label for="sulphates">sulphates:</label>
+        <input type="text" id="sulphates" name="sulphates" required>
         <br>
-        <label for="weathersit">Weathersit:</label>
-        <input type="text" id="weathersit" name="weathersit">
+        <label for="alcohol">Alcohol:</label>
+        <input type="text" id="alcohol" name="alcohol" required>
         <br>
-        <label for="temp">Temperature:</label>
-        <input type="text" id="temp" name="temp">
-        <br>
-        <label for="hum">Humidity:</label>
-        <input type="text" id="hum" name="hum">
-        <br>
-        <label for="windspeed">Wind Speed:</label>
-        <input type="text" id="windspeed" name="windspeed">
         <br>
         <input type="submit" value="Predict">
-    </form>
-</body>
+      </form>
+    </div>
+  </body>
 </html>
+
+
