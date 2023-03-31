@@ -15,11 +15,12 @@ This repository contains Python and SAS scripts to analyze the "White Wine Quali
 
 **Requirements**
 
-pandas
+**pandas**
 
-matplotlib
+**matplotlib**
 
-seaborn
+**seaborn**
+
 
 To run the SAS program, you will need to have SAS installed on your computer or use SAS onDemand
 
