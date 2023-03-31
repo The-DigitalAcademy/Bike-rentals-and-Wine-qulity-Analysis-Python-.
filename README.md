@@ -26,6 +26,7 @@ To run the SAS program, you will need to have SAS installed on your computer or 
 
 **Usage**
 **Python Script**
+
 To run the Python script, simply click on the winequality-white.csv file:
 The script will read in the "winequality-white.csv" file and perform some basic exploratory data analysis. It will then create several visualizations of the data using matplotlib and seaborn.
 
