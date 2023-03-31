@@ -1,13 +1,13 @@
 ***White Wine Dataset Analysis***
 This repository contains Python and SAS scripts to analyze the "White Wine Quality" dataset. The dataset contains information about various attributes of white wines, as well as their quality ratings based on sensory data.
 
-**Table of Contents**
-**Requirements
-Usage
-Python Script
-SAS Program
-Results
-Contributors
+***Table of Contents***
+**Requirements**
+**Usage**
+**Python Script**
+**SAS Program**
+**Results**
+**Contributors**
 
 **Requirements**
 pandas
