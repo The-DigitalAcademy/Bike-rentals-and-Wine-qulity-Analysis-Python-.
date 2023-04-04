@@ -6,10 +6,15 @@ This repository contains Python and SAS scripts to analyze the "White Wine Quali
 ***Table of Contents***
 
 Technologies used
+
 Usage
+
 Python Script
+
 SAS Program
+
 Results
+
 Contributors
 
 
