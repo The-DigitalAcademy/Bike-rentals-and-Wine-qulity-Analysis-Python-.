@@ -5,15 +5,15 @@ This repository contains Python and SAS scripts to analyze the "White Wine Quali
 
 ***Table of Contents***
 
-**Requirements**
+Technologies used
+Usage
+Python Script
+SAS Program
+Results
+Contributors
 
-**Usage**
-**Python Script**
-**SAS Program**
-**Results**
-**Contributors**
 
-**Requirements**
+**Technologies used**
 
 **pandas**
 
@@ -22,10 +22,10 @@ This repository contains Python and SAS scripts to analyze the "White Wine Quali
 **seaborn**
 
 
-
+**Usage**
 To run the SAS program, you will need to have SAS installed on your computer or use SAS onDemand
 
-**Usage**
+
 **Python Script**
 
 To run the Python script, simply click on the winequality-white.csv file:
