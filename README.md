@@ -20,11 +20,11 @@ Contributors
 
 ## Technologies used
 
-**pandas**
+pandas
 
-**matplotlib**
+matplotlib
 
-**seaborn**
+seaborn
 
 
 ## Usage
